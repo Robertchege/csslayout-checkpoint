@@ -1,0 +1,326 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5;
+}
+header img{
+
+    width: 268px;
+    height: 33px;
+}
+
+nav{
+    padding: 1em;
+    
+}
+.main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4em;
+}
+#logo1{
+    display: flex;
+    width: 40px;
+    height: 40px;
+   
+    
+    
+}
+
+#h2{
+    
+    color: #00b39b;
+    width: 975px;
+    height: 44.19px;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+    display: flex;
+    font: 34px;
+    font-size: 30px;
+    
+}
+
+.paragraphs{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+   
+    
+ 
+}
+#p1{
+    padding-left: 100px;
+}
+
+.box{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0 20px;
+    font-weight: 300;
+    gap: 2.5rem;
+    font-size: 1.5em;
+    margin: 3.75rem auto 2.5rem;
+    padding: 0 20px;
+    padding: 1.375em 1.25em 0;
+    position: relative;
+    line-height: 1.2;
+    display: flex;
+
+
+}
+
+#box1{
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #00ccb1;
+}
+#box2{
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #3d83df;
+
+}
+#box3{
+    flex-direction: column;
+    display: flex;
+    height: 300px;
+    width: 250px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 2em;
+    background-color: #1b2734;
+}
+.part3{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+    
+}
+
+#p3{
+    font-size: 1.625em;
+    margin: 0.25em 0 0.35em;
+    padding-right: 1em;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #00b39b;
+
+}
+#countrylogos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+#countrylogos img{
+    width: 7.5rem;
+    object-fit: contain;
+    padding-left: 10px;
+}
+
+.part4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+    padding-left: 50px;
+    background-color: #d0faf4;
+}
+
+#part4header{
+    padding-top: 60px;
+
+}
+#part4header h2{
+    font-weight: 300;
+    padding-left: 50px;
+    letter-spacing: -0.3px;
+    color: #00b39b;
+}
+
+#part4header p{
+    padding-left: 50px;
+    padding-top: 20px;
+    font-size: 15px;
+    padding-bottom: 50px;
+    color: #747474;
+}
+
+.part4sect{
+    display: flex;
+    margin-right: 50px;
+    height: 100%;
+    margin-left: 100px;
+    justify-content: space-around;
+}
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.part4sect h3{
+    color: #00b39b;
+    font-size: 1.8em;
+    font-weight: 300;
+    letter-spacing: -0.3px;
+}
+
+.part4sect p{
+    color: #747474;
+    font-size: 0.8em;
+    font-weight: 400;
+    
+}
+
+#leader{
+    margin-bottom: 20px;
+}
+#appointments{
+    margin-bottom: 20px;
+}
+
+#Leader,#Patients,#Appointments,#Doctors{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    width: 200px;
+    border-radius: 2px;
+}
+.part5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    width: 100%;
+}
+.part5 h3{
+    color: #00b39b;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    font-size: 2em;
+}
+.part5 p{
+    color: #747474;
+    text-align: center;
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+
+.part6{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 0.5cm;
+    
+}
+
+.buttons{
+    display: flex;
+    gap: 2cm;
+    margin-top: 0.5cm;
+    justify-content: center;
+    
+    color: #fff;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 20px;
+    line-height: 1em;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+.countrypics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.part6 p{
+    color: #747474;
+    padding-top: 20px;
+    padding-left: 20px;
+
+
+}
+div .buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.part7{
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+    
+}
+
+.part7 button{
+    color: #fff;
+    background-color: #3d83df;
+    border-radius: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.footer{
+    text-align: center;
+    
+    color: #ababab;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.footer p{
+    padding-top: 20px;
+}
